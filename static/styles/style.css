@@ -1,0 +1,139 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos para o logo */
+.topnav img {
+    height: 40px;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 1350px;
+}
+
+.nav-links a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Estilos para os links ativos */
+.nav-links a.active {
+    background-color: #4CAF50;
+    /* Cor de fundo do link ativo */
+    color: white;
+    /* Cor do texto do link ativo */
+}
+
+/* Mudar a cor do link quando passar o mouse por cima */
+.nav-links a:hover {
+    background-color: #ddd;
+    /* Cor de fundo ao passar o mouse */
+    color: black;
+    /* Cor do texto ao passar o mouse */
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    text-align: center;
+    margin: 0 auto;
+    /* Centralizar horizontalmente */
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* Estilos para o campo de input */
+.input-field {
+    width: 200px;
+    /* Largura do campo de input */
+    padding: 10px;
+    /* Espaçamento interno */
+    border: 2px solid #ccc;
+    /* Borda do campo */
+    border-radius: 16px;
+    /* Bordas arredondadas */
+    text-align: center;
+    /* Centralizar o texto dentro do input */
+    margin-bottom: 10px;
+    /* Espaçamento abaixo do campo */
+}
+
+.numero {
+    color: white;
+}
+
+/* Estilos para o botão */
+.botao {
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    background-color: #4CAF50;
+    /* Cor de fundo */
+    border: none;
+    /* Remover borda */
+    color: white;
+    /* Cor do texto */
+    border-radius: 16px;
+    /* Bordas arredondadas */
+    cursor: pointer;
+    /* Alterar o cursor ao passar o mouse */
+}
+
+.texto2 {
+    color: red;
+}
+
+.botao2 {
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    background-color: #4CAF50;
+    /* Cor de fundo */
+    border: none;
+    /* Remover borda */
+    color: white;
+    /* Cor do texto */
+    border-radius: 16px;
+    /* Bordas arredondadas */
+    cursor: pointer;
+    /* Alterar o cursor ao passar o mouse */
+}
+
+#tentativas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Centralizar verticalmente */
+    background-color: #f0f0f0;
+    /* Cor de fundo */
+    width: 300px;
+    max-height: 200px;
+    /* Altura máxima da div */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    margin: 20px auto 0;
+    /* Espaçamento acima da nova div */
+    overflow: auto;
+    /* Adicionar barra de rolagem caso o conteúdo exceda a altura máxima */
+}
